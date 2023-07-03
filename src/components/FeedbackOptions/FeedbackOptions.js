@@ -15,7 +15,7 @@ export default class FeedbackOptions extends React.Component {
           return (
             <button
               key={index}
-              className={`${css.btn} ${css[option]}`}
+              className={css.btn}
               onClick={evt => onLeaveFeedback(evt)}
             >
               {option}
